@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+One');
+@import url('https://fonts.googleapis.com/css?family=Acme+One');
+
+/*.navbar {
+    background-color: radial-gradient(#073C72, #211B43);
+    background-color:#073C72;
+    padding: 20px;
+    overflow: hidden;
+}*/
+
+.navbar { 
+    background-color: #073C72;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px, 12px;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+
+li a:hover {
+    color: #FD7135;
+    background-color: #052f58;
+}
+
+/*li a:visited {
+    color: #FD7135;
+}*/
+
+body {
+    background: #fffff0;
+    margin: auto;
+    text-align: center;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+li {
+    list-style-type: none;
+}
+
+li.subjects {
+    display: table;
+    margin: 0 auto;
+}
+
+img.main {
+    width: 200;
+    border: 12px, solid, #1B7B99;
+}
+
+.krona-one-regular {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+h1 {
+    font-family: Krona One;
+    color:#FD7135;
+    
+}
+
+.landing-stats ul {
+    /*background-image: url('images/books.png');*/
+    background: red;
+    display: inline;
+}
+
+.button {
+    background-color: #00BF63;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 16px 32px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+}
