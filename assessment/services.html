@@ -1,24 +1,36 @@
 <html>
     <head>
         <link rel="stylesheet" href="main.css">
+        <section class="navbar">
+            <a id="logo" href="index.html"><img src="images/logo.png"></a></li>
+            <ul id="navlink">
+             <li><a href="about.html">About </a></li>
+             <li><a class="active" href="services.html">Services </a></li>
+             <li><a href="register.html">Register</a></li>
+            </ul>
+        </section>
     </head>
     <body>
         <section id="services">
             <h1>We offer...</h1>
-            <ul id="subjects">
-                <li><img src="images/maths.png">
-                    <p>Maths</p></li>
-                <li><img src="images/history.png">
-                    <p>History</p></li>
-                <li><img src="images/english.png">
-                    <p>English</p></li>
-                <li><img src="images/science.png">
-                    <p>Science</p></li>
-                <li><img src="images/arts.png">
-                    <p>Arts</p></li>
-                <li><img src="images/more.png">
-                    <p>...and more!</p></li>
-            </ul>
+            <table class="subjects">
+                <tr>
+                 <th><img class="topictable" src="images/maths.png">
+                    <p>Maths</p></th>
+                 <th><img class="topictable" src="images/science.png">
+                    <p>Science</p></th>
+                 <th><img class="topictable" src="images/history.png">
+                    <p>History</p></th>
+                </tr>
+                <tr>
+                 <th><img class="topictable" src="images/english.png">
+                    <p>English</p></th>
+                 <th><img class="topictable" src="images/arts.png">
+                    <p>Arts</p></th>
+                 <th><img class="topictable" src="images/more.png">
+                    <p>...and more!</p></th>
+                </tr>
+            </table>
         </section>
 
         <section id="pricing">

@@ -31,12 +31,21 @@ li a {
     text-decoration: none;
 }
 
+
+
 .navbar a {
     float: left;
     padding: 12px, 12px;
     color: #fff;
     text-align: center;
     display: block;
+}
+
+#logo {
+    padding: 10px;
+}
+#logo img {
+    width: 109px;
 }
 
 li a:hover {
@@ -62,9 +71,13 @@ li {
     list-style-type: none;
 }
 
-li.subjects {
+table.subjects {
     display: table;
     margin: 0 auto;
+}
+
+.topictable {
+    width: 78px;
 }
 
 img.main {
@@ -84,10 +97,19 @@ h1 {
     
 }
 
-.landing-stats ul {
-    /*background-image: url('images/books.png');*/
-    background: red;
-    display: inline;
+div.landing-stats {
+    background: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
+.stats {
+    display: table;
+    margin: 0 auto;
+}
+
+.stattable {
+    width: 80px;
 }
 
 .button {
@@ -99,4 +121,8 @@ h1 {
     display: inline-block;
     text-decoration: none;
     border-radius: 15px;
+}
+
+a.active {
+    color: #FD7135;
 }
