@@ -31,7 +31,9 @@ li a {
     text-decoration: none;
 }
 
-
+.navbar img {
+    display: block;
+}
 
 .navbar a {
     float: left;
@@ -56,6 +58,9 @@ li a:hover {
 /*li a:visited {
     color: #FD7135;
 }*/
+p {
+    font-family: "Inter";
+}
 
 body {
     background: #fffff0;
@@ -71,18 +76,40 @@ li {
     list-style-type: none;
 }
 
+
+
+
+
+body#services {
+    background-image: url("images/bgplanet.png"), url("images/bgmath.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -10% 50%, 110% 50%;
+    background-color: #fffff0d5;
+    background-blend-mode: lighten;
+}
+
+img#glasses {
+    width: 100%;
+}
+
 table.subjects {
     display: table;
     margin: 0 auto;
 }
 
-.topictable {
+.topictable , .stattable , .benefittable {
     width: 78px;
+    border-collapse: collapse;
 }
 
 img.main {
     width: 200;
     border: 12px, solid, #1B7B99;
+}
+
+p#registertext {
+    position: right;
 }
 
 .krona-one-regular {
@@ -97,8 +124,40 @@ h1 {
     
 }
 
-div.landing-stats {
+.land-img {
+    border: 20px, solid, #1B7B99;
+    width: 360px;
+    /*position: fixed;*/
+    top: 200 px;
+    right: 750px;
+}
+
+span.tutortastic {
+    font-size: 35px;
+    position: absolute;
+    top: 580px;
+    right: 840px;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+div.bar {
+    margin-top: 20px;
+    background-color: #1B7B99;
+}
+
+.review {
+    display: inline-block;
+    color: white;
+}
+
+img.revimg {
+    width: 80px;
+}
+
+div.landingstats {
     background: grey;
+    background-image: "images/books.png";
     margin: 0px;
     padding: 0px;
 }
@@ -108,8 +167,10 @@ div.landing-stats {
     margin: 0 auto;
 }
 
-.stattable {
-    width: 80px;
+
+.benefits {
+    background: grey;
+    margin: 0 auto;
 }
 
 .button {
@@ -125,4 +186,23 @@ div.landing-stats {
 
 a.active {
     color: #FD7135;
+}
+
+div.register {
+    display: inline-block;
+}
+
+.registerimage {
+    border-radius: 30px;
+    width: 400px;
+    position: left;
+}
+body#registerbody {
+    background-image: url("images/bgbubble.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-color: #fffff0d5;
+    background-blend-mode: lighten;  
+    background-size: 600px;
 }
