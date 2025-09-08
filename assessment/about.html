@@ -1,8 +1,12 @@
 <html>
     <head>
+        <!-- Navigation bar. This will be on all pages. -->
+        <!-- The title and favicon indicate the website the user is on. -->
+        <title>Tutortastic</title>
+        <link rel="icon" href="images/favicon.png">
         <link rel="stylesheet" href="main.css">
         <section class="navbar">
-            <a id="logo" href="index.html"><img src="images/logo.png"></a></li>
+            <a id="logo" href="index.html"><img src="images/logo.png"></a>
             <ul id="navlink">
              <li><a class="active" href="about.html">About </a></li>
              <li><a href="services.html">Services </a></li>
@@ -10,16 +14,37 @@
             </ul>
         </section>
     </head>
-    <body>
-        <h1>About us</h1>
 
-        <h1>#1 online tutoring service</h1>
-        <img src="images/wmn_lptp2.png" class="rounded main">
-        <h1>by kiwis, for kiwis</h1>
-        <p>Tutortastic was founded in 2022 to help students in all parts of Aotearoa. Our services are built on Maori values and ideas on community, family, kinship, and preservation of knowledge. Our prices are lower than other tutoring platforms because we value education over profits. For Tutortastic, our ākonga come first.
-         </br></br>
-         <strong>Our Mission</strong></br>
-         We aim for high quality, yet accessible tutoring. Our prices are low, and our tutors are equipped to aid special needs children. We offer online tutoring in order to reach and lift up any student that we can.</p>
+    <body>
+        <!-- Body title -->
+        <h1 class="aboutus">About us</h1>
+        <!-- The bar that falls behind all the elements-->
+        <div class="bar">
+            <img src="images/stdntsnew.png" class="barimg">
+            <!-- A summary about Tutortastics values and mission -->
+            <div class="aboutpara">
+                <p>Tutortastic was founded in 2022 to help students in all parts of Aotearoa. Our</br>
+                services are built on Maori values and ideas on community, family, kinship, and preservation of</br>
+                knowledge. Our prices are lower than other tutoring platforms because we value education</br>
+                over profits. For Tutortastic, our ākonga come first.
+                </br></br>
+                <strong>Our Mission</strong></br>
+                We aim for high quality, yet accessible tutoring. Our prices are low, and our tutors are equipped to aid</br>
+                special needs children. We offer online tutoring in order to reach and lift up</br>
+                any student that we can.</p>
+              </div>
+        </div>
+
+        <!-- Main image -->
+        <h1><img id="tutoringservice" src="images/onlinetutoring.png"
+            alt="Number 1 tutoring service"></h1>
+
+        <img src="images/wmn_lptp2.png" class="aboutimg rounded main"
+        alt="Teacher and student">
+
+        <h1><img id="bykiwis" src="images/bykiwisforkiwis.png"
+            alt="by kiwis, for kiwis"></h1>
+
     </body>
 </html>
 

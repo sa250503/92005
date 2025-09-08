@@ -5,13 +5,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+One');
 @import url('https://fonts.googleapis.com/css?family=Acme+One');
 
-/*.navbar {
-    background-color: radial-gradient(#073C72, #211B43);
-    background-color:#073C72;
-    padding: 20px;
-    overflow: hidden;
-}*/
 
+/*Navigation bar begins*/
 .navbar { 
     background-color: #073C72;
     margin: 0px;
@@ -21,6 +16,7 @@
 
 li {
     float: left;
+    list-style-type: none;
 }
 
 li a {
@@ -54,10 +50,9 @@ li a:hover {
     color: #FD7135;
     background-color: #052f58;
 }
+/*Navigation bar ends*/
 
-/*li a:visited {
-    color: #FD7135;
-}*/
+/*General use classes for all pages*/
 p {
     font-family: "Inter";
 }
@@ -72,44 +67,8 @@ body {
     border-radius: 50%;
 }
 
-li {
-    list-style-type: none;
-}
-
-
-
-
-
-body#services {
-    background-image: url("images/bgplanet.png"), url("images/bgmath.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: -10% 50%, 110% 50%;
-    background-color: #fffff0d5;
-    background-blend-mode: lighten;
-}
-
-img#glasses {
-    width: 100%;
-}
-
-table.subjects {
-    display: table;
-    margin: 0 auto;
-}
-
-.topictable , .stattable , .benefittable {
-    width: 78px;
-    border-collapse: collapse;
-}
-
 img.main {
-    width: 200;
     border: 12px, solid, #1B7B99;
-}
-
-p#registertext {
-    position: right;
 }
 
 .krona-one-regular {
@@ -122,55 +81,6 @@ h1 {
     font-family: Krona One;
     color:#FD7135;
     
-}
-
-.land-img {
-    border: 20px, solid, #1B7B99;
-    width: 360px;
-    /*position: fixed;*/
-    top: 200 px;
-    right: 750px;
-}
-
-span.tutortastic {
-    font-size: 35px;
-    position: absolute;
-    top: 580px;
-    right: 840px;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white,
-    1px 1px 0 white;
-}
-
-div.bar {
-    margin-top: 20px;
-    background-color: #1B7B99;
-}
-
-.review {
-    display: inline-block;
-    color: white;
-}
-
-img.revimg {
-    width: 80px;
-}
-
-div.landingstats {
-    background: grey;
-    background-image: "images/books.png";
-    margin: 0px;
-    padding: 0px;
-}
-
-.stats {
-    display: table;
-    margin: 0 auto;
-}
-
-
-.benefits {
-    background: grey;
-    margin: 0 auto;
 }
 
 .button {
@@ -188,21 +98,189 @@ a.active {
     color: #FD7135;
 }
 
+/*End*/
+
+/*Decor for services page*/
+body#services {
+    background-image: url("images/bgplanet.png"), url("images/bgmath.png");
+    background-repeat: no-repeat;
+    background-position: -10% 40%, 110% 40%;
+    background-color: #fffff0d5;
+    background-blend-mode: lighten;
+}
+
+img#glasses {
+    width: 100%;
+}
+
+table.subjects {
+    display: table;
+    margin: 0 auto;
+}
+
+.topictable , .stattable {
+    width: 78px;
+    border-collapse: collapse;
+}
+
+.stattable {
+    color: white;
+    font-family: 'Arial';
+}
+
+.jointhe {
+    margin-top: 40px;
+}
+
+h5 {
+    margin: 0px;
+}
+
+h1.tutortasticfam {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Landing */
+.land-img {
+    border: 20px, solid, #1B7B99;
+    width: 360px;
+    position: absolute;
+    top: 200px;
+    right: 750px;
+}
+
+span.tutortastic {
+    font-size: 35px;
+    position: absolute;
+    top: 580px;
+    right: 840px;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+div.bar {
+    background-color: #1B7B99;
+    margin-top: 160px;
+    padding: 20px 0px;
+}
+
+img.barimg {
+    opacity: 0.1;
+    width: 100%;
+}
+
+
+.review-left {
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+
+.review-right {
+    position: absolute;
+    top: 350px;
+    right: 150px;
+}
+
+span.right {
+    text-align: end;
+}
+
+.review {
+    color: white;
+    text-align: left;
+}
+
+img.revimg {
+    width: 80px;
+}
+
+.landingpara {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+div.landingstats {
+    background: grey url('images/booksnew.png') no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.statmain {
+    display: inline-block;
+}
+
+.statimg {
+    width: 78px;
+}
+
+.stats {
+    border: 5px white;
+    display: table;
+    margin: 0 auto;
+}
+
+
+/* Register page */
+p#registertext {
+    position: right;
+}
+
 div.register {
+    padding: 0px;
+    margin-top: 55px;
     display: inline-block;
 }
 
 .registerimage {
     border-radius: 30px;
-    width: 400px;
+    width: 350px;
     position: left;
 }
 body#registerbody {
     background-image: url("images/bgbubble.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 50%;
+    background-position: 70% 25%;
     background-color: #fffff0d5;
     background-blend-mode: lighten;  
     background-size: 600px;
+}
+
+/* About page */
+.aboutus {
+    position: fixed;
+    left: 40px;
+    top: 170px;
+}
+
+img#tutoringservice {
+    width: 400px;
+    position: fixed;
+    top: 120px;
+    right: 268px;
+}
+
+img#bykiwis {
+    width: 370px;  
+    position: fixed; 
+    top: 600px;
+    right: 290px;
+}
+.aboutpara {
+    font-size: 18px;
+    font-family: 'Arial';
+    color: white;
+    text-align: left;
+    padding-left: 22px;
+    position: absolute;
+    top: 285px;
+}
+
+.aboutimg {
+    position: fixed;
+    top: 170px;
+    right: 230px;
+    width: 450px;
 }
