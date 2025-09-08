@@ -1,42 +1,63 @@
 <html>
     <head>
+        <!-- Navigation bar. This will be on all pages. -->
+        <!-- The title and favicon indicate the website the user is on. -->
+        <title>Tutortastic</title>
+        <link rel="icon" href="images/favicon.png">
         <link rel="stylesheet" href="main.css">
         <section class="navbar">
             <div class="navmain">
             <a id="logo" href="index.html"><img src="images/logo.png"></a></li>
             </div>
-            
-            <div class="navbutton">
              <ul id="navlink">
                   <li><a href="about.html">About </a></li>
                   <li><a href="services.html">Services </a></li>
                   <li><a href="register.html">Register</a></li>
             </ul>
-            </div> 
         </section>
     </head>
 
     <body>
+        <!-- A bar to go behind all elements. -->
         <section id="Landing">
             <div class="bar">
-                <img src="images/stars1.png" class="revimg"> <p class="review">“Tutortastic paired my daughter with the best tutors, she</br>was able to achieve NCEA Level 3 with ease!” </br>- Sarah Chapman</p>
-                <img src="images/stars2.png" class="revimg"> <p class="review">“Tutortastic is infinitely helpful and compensates</br>for any inconvenience, they’re the service to go</br>when you’re on a budget.” </br>- Nikol Svesta</p>
+                <img src="images/stdntsnew.png" class="barimg">
             </div>
 
+            <!-- Reviews that go next to the focal image. These will have star reviews and a short sentence about Tutortastic.-->
+            <div class="review-left">
+                <img src="images/stars1.png" class="revimg">
+                <p class="review">“Tutortastic paired my daughter with the best tutors, she</br>was able to achieve NCEA Level 3 with ease!” </br>
+                <span class="right">- Sarah Chapman</span></p>
+            </div>
+            
+            <!-- Main image. This will be positioned in the center and will be right above the title. -->
             <div>
              <img src="images/wmn_lptp1.png" alt="Woman with a laptop" class="rounded land-img">
              <h1><span class="tutortastic">Tutortastic</span></h1>
-             <p>Tutortastic is a New Zealand-based online tutoring service for year 9-13 students living in NZ. Our tutors are patient, <br/> accomplished, and will work hand-in-hand with ākonga and their whānau in order to get them to achieve bigger and better <br/> things.</p>
+            </div>
+
+            <!-- Reviews that go next to the focal image. These will have star reviews and a short sentence about Tutortastic.-->
+            <div class="review-right">
+                <img src="images/stars2.png" class="revimg">
+                <p class="review">“Tutortastic is infinitely helpful and compensates</br>for any inconvenience, they’re the service to go</br>when you’re on a budget.” </br>
+                <span class="right">- Nikol Svesta</span></p>
+            </div>
+
+            <!-- A short paragraph introducing Tutortastic as a tutoring service. -->
+             <div class="landingpara">
+             <p>Tutortastic is a New Zealand-based online tutoring service for year 9-13 students living in NZ. Our tutors are patient, <br/>
+                accomplished, and will work hand-in-hand with ākonga and their whānau in order to get them to achieve bigger and better <br/>
+                things.</p>
              </div>
 
+            <!-- Reviews that go next to the focal image. These will have star reviews and a short sentence about Tutortastic.-->
             <div class="landingstats">
-             <table class="stats">
-                <tr>
-                 <th><img class="stattable" src="images/statstudents.png"> <h2>8,670</h2> <p>Students tutored<br/>in Aotearoa</p></th>
-                 <th><img class="stattable" src="images/statsubjects.png"> <h2>100+</h2> <p>Different<br/>subjects</p></th>
-                 <th><img class="stattable" src="images/stattutors.png"> <h2>1,276</h2> <p>Registered tutors all<br/>around the country</p></th>
-                </tr>
-             </table>
+             <section>
+                 <div class="statmain"><img class="statimg" src="images/statstudents.png"> <h2 class="stattable">8,670</h2> <p class="stattable">Students tutored<br/>in Aotearoa</p></div>
+                 <div class="statmain"><img class="statimg" src="images/statsubjects.png"> <h2 class="stattable" >100+</h2> <p class="stattable">Different<br/>subjects</p></div>
+                 <div class="statmain"><img class="statimg" src="images/stattutors.png"> <h2 class="stattable">1,276</h2> <p class="stattable">Registered tutors all<br/>around the country</p></div>
+            </section>
             </div>
 
         </section>

@@ -108,8 +108,13 @@ table.subjects {
     border-collapse: collapse;
 }
 
+.stattable {
+    color: white;
+    font-family: 'Arial';
+}
+
 img.main {
-    width: 200;
+    /* width: 200; */
     border: 12px, solid, #1B7B99;
 }
 
@@ -132,8 +137,8 @@ h1 {
 .land-img {
     border: 20px, solid, #1B7B99;
     width: 360px;
-    /*position: fixed;*/
-    top: 200 px;
+    position: absolute;
+    top: 200px;
     right: 750px;
 }
 
@@ -147,27 +152,64 @@ span.tutortastic {
 }
 
 div.bar {
-    margin-top: 20px;
     background-color: #1B7B99;
+    margin-top: 160px;
+    padding: 20px 0px;
+}
+
+img.barimg {
+    opacity: 0.1;
+    width: 100%;
+}
+
+
+.review-left {
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+
+.review-right {
+    position: absolute;
+    top: 350px;
+    right: 150px;
+}
+
+span.right {
+    text-align: end;
 }
 
 .review {
-    display: inline-block;
+    /*display: inline-block;*/
     color: white;
+    text-align: left;
 }
 
 img.revimg {
     width: 80px;
 }
 
+.landingpara {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
 div.landingstats {
-    background: grey;
-    background-image: "images/books.png";
+    background: grey url('images/booksnew.png') no-repeat;
     margin: 0px;
     padding: 0px;
 }
 
+.statmain {
+    display: inline-block;
+}
+
+.statimg {
+    width: 78px;
+}
+
 .stats {
+    border: 5px white;
     display: table;
     margin: 0 auto;
 }
@@ -176,6 +218,7 @@ div.landingstats {
 .benefits {
     background: grey;
     margin: 0 auto;
+    text-align: center;
 }
 
 .button {
@@ -194,6 +237,7 @@ a.active {
 }
 
 div.register {
+    margin-top: 55px;
     display: inline-block;
 }
 
@@ -206,8 +250,44 @@ body#registerbody {
     background-image: url("images/bgbubble.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 50%;
+    background-position: 70% 25%;
     background-color: #fffff0d5;
     background-blend-mode: lighten;  
     background-size: 600px;
+}
+
+.aboutus {
+    position: fixed;
+    left: 40px;
+    top: 170px;
+}
+
+img#tutoringservice {
+    width: 400px;
+    position: fixed;
+    top: 120px;
+    right: 268px;
+}
+
+img#bykiwis {
+    width: 370px;  
+    position: fixed; 
+    top: 600px;
+    right: 290px;
+}
+.aboutpara {
+    font-size: 18px;
+    font-family: 'Arial';
+    color: white;
+    text-align: left;
+    padding-left: 22px;
+    position: absolute;
+    top: 285px;
+}
+
+.aboutimg {
+    position: fixed;
+    top: 170px;
+    right: 230px;
+    width: 450px;
 }
